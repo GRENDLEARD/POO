@@ -18,6 +18,6 @@ public class Circulo extends FiguraGeometrica {
 
      @Override
      public String mostrarDatos (){
-        return "Perimetro: "+Perimetro+"\nArea: "+Area+"\nVolumen: "+Volumen+"\nRadio: "+Radio+"Otro: "+Otro;
+        return "Perimetro: "+Perimetro+"\nArea: "+Area+"\nVolumen: "+Volumen+"\nRadio: "+Radio+"\nOtro: "+Otro;
    }
  }

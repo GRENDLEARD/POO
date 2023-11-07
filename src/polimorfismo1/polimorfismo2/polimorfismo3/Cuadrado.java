@@ -18,7 +18,7 @@ public class Cuadrado extends FiguraGeometrica {
 
      @Override
      public String mostrarDatos (){
-        return "Perimetro: "+Perimetro+"\nArea: "+Area+"\nVolumen: "+Volumen+"\nLados: "+Lados+"Otro: "+Otro;
+        return "Perimetro: "+Perimetro+"\nArea: "+Area+"\nVolumen: "+Volumen+"\nLados: "+Lados+"\nOtro: "+Otro;
    }
  }
 

@@ -19,6 +19,6 @@ public class Triangulo extends FiguraGeometrica {
 
      @Override
      public String mostrarDatos (){
-        return "Perimetro: "+Perimetro+"\nArea: "+Area+"\nVolumen: "+Volumen+"\nTipos: "+Tipos+"Otro: "+Otro;
+        return "Perimetro: "+Perimetro+"\nArea: "+Area+"\nVolumen: "+Volumen+"\nTipos: "+Tipos+"\nOtro: "+Otro;
    }
  }
