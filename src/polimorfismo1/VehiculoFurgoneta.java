@@ -12,7 +12,7 @@ public class VehiculoFurgoneta extends Vehiculo{
                                         
      @Override
      public String mostrarDatos (){
-            return "Matricula: "+matricula+"\nmarca: "+marca+"Modelo: "+modelo+"\ncarga: "+carga;
+            return "Matricula: "+matricula+"\nmarca: "+marca+"\nModelo: "+modelo+"\ncarga: "+carga;
        }
      }
 
