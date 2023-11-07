@@ -12,6 +12,6 @@ public class VehiculoTurismo extends Vehiculo{
 
      @Override
      public String mostrarDatos (){
-         return "Matricula: "+matricula+"\nMarca: "+marca+")nModelo: "+modelo+"\nNumero de Puertas: "+nPuertas;
+         return "Matricula: "+matricula+"\nMarca: "+marca+"\nModelo: "+modelo+"\nNumero de Puertas: "+nPuertas;
     }
 }

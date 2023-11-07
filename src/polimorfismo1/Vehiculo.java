@@ -25,6 +25,6 @@ package polimorfismo1;
      }
      
      public String mostrarDatos () {
-         return "Matricula: "+matricula+"\nMarca: "+marca+")nModelo: "+modelo;
+         return "Matricula: "+matricula+" \nMarca: "+marca+"\nModelo: "+modelo;
      }
  }
