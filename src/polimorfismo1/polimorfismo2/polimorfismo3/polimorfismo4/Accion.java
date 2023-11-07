@@ -1,23 +1,20 @@
 package polimorfismo1.polimorfismo2.polimorfismo3.polimorfismo4;
 
-public class Accion extends Juego{
-     private String Objetivo;
-      private String Otro; 
+// Subclase Acción
+class Accion extends Juego {
+    private String objetivo;
+    private String historia;
 
-     public Accion (String Objetivo, String Otro, String Desarrolador, String Nombre, String Año) {
-    super (Desarrolador, Nombre, Año);
-     this.Objetivo = Objetivo;
-     this.Otro = Otro;
+    public Accion(String desarrollador, String nombre, int año, String objetivo, String historia) {
+        super(desarrollador, nombre, año);
+        this.objetivo = objetivo;
+        this.historia = historia;
     }
-     public String getObjetivo(){
-        return Objetivo;
-    }
-     public String getOtro(){
-        return Otro;
-    }
- 
-     @Override
-     public String mostrarDatos () {
-        return "Desarrolador: "+Desarrolador+" \nNombre: "+Nombre+"\nAño: "+Año+"\nObjetivo: "+Objetivo+"\nOtro"+Otro;
+
+    @Override
+    public void mostrarDatos() {
+        super.mostrarDatos();
+        System.out.println("Objetivo: " + objetivo);
+        System.out.println("Historia: " + historia);
     }
 }

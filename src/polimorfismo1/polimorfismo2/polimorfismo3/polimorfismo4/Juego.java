@@ -1,31 +1,20 @@
 
 package polimorfismo1.polimorfismo2.polimorfismo3.polimorfismo4;
- public class Juego {
-     protected String Desarrolador;
-     protected String Nombre;
-     protected String Año;
+ // Clase base Juego
+class Juego {
+    private String desarrollador;
+    private String nombre;
+    private int año;
 
+    public Juego(String desarrollador, String nombre, int año) {
+        this.desarrollador = desarrollador;
+        this.nombre = nombre;
+        this.año = año;
+    }
 
-     public Juego(String Desarrolador, String Nombre, String Año) {
-         this.Desarrolador = Desarrolador;
-         this.Nombre = Nombre;
-         this.Año = Año;  
-     }
-
-     public String getDesarrolador(){
-        return Desarrolador;
-     }
-     
-     public String getNombre(){
-        return Nombre;
-     }
-
-     public String getAño(){
-        return Año;
-     }
-   
-     public String mostrarDatos () {
-        return "Desarrolador: "+Desarrolador+" \nNombre: "+Nombre+"\nAño: "+Año;
+    public void mostrarDatos() {
+        System.out.println("Desarrollador: " + desarrollador);
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Año: " + año);
     }
 }
-
