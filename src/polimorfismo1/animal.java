@@ -1,5 +1,5 @@
 
-package polimorfis;
+package polimorfismo1;
 
 class Animal {
     public void hacerSonido() {
