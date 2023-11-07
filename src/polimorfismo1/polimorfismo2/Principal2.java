@@ -6,7 +6,7 @@ package polimorfismo1.polimorfismo2;
 
          misAnimales [0] = new Animal("Lobo","negro","grande","Zona fria");
          misAnimales [1] = new Delfin("Delphinus capensis","Rapido","Delphinus capensis","Negro con Blanco","grande","lugares Frios ");
-         misAnimales [2] = new Gato("El gato doméstico","Veloz","Felis silvestris catus","Negro","Peuqeño","Selva");
+         misAnimales [2] = new Gato("El gato doméstico","Veloz","Felis silvestris catus","Negro","Pequeño","Selva");
          misAnimales [3] = new Gusano("Oruga","Patas pequeñas","Lepidoptera","Verde","Muy pequeño","bosques, praderas");
 
          for (Animal Animales: misAnimales) {
