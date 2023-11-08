@@ -3,3 +3,4 @@ manifest.mf
 nbproject/ 
 .gitignore
 /build/
+hs_err_pid9420.log
